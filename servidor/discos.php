@@ -51,4 +51,4 @@ class musica
 
 }
 
-musica:disco();
+musica::disco();
