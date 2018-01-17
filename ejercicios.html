@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Ejemplo Ajax</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/ejercicios.js" defer></script>
+</head>
+<body>
+<div id="spinner" class="spinner">
+    <div class="dot1"></div>
+    <div class="dot2"></div>
+</div>
+
+<div>
+    <h1>PETICIÓN ASÍNCRONA</h1>
+    <div>
+        <button onclick="funcionAjaxAsincrona();" >GET SIN DATOS</button>
+        <button onclick="funcionAjaxAsincronaGET();" >GET CON DATOS</button>
+        <button onclick="funcionAjaxAsincronaPOST();" >POST</button>
+    </div>
+    <div>
+        <h1>RESULTADO PETICIÓN</h1>
+        <div id="resultado"></div>
+    </div>
+</div>
+
+<div>
+    <h1>PETICIÓN ASÍNCRONA SUMA</h1>
+    <div>
+        <button onclick="funcionAjaxSuma5();" >SUMA 5</button>
+    </div>
+
+    <h1>PETICIÓN ASÍNCRONA MULTIPLICACION</h1>
+    <div>
+        <button onclick="funcionAjaxMultiplicacion();" >Multiplicacion</button>
+    </div>
+
+    <div>
+        <h1>Introduzca el valor</h1>
+        <input id="numero" value="" />
+
+        <h1>Introduzca segundo valor</h1>
+        <input id="numero2" value=""/>
+
+        <h1>RESULTADO SUMA</h1>
+        <div id="resultadoSuma5"></div>
+
+        <h1>RESULTADO MULTIPLICACION</h1>
+        <div id="resultadoMultiplicacion"></div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
